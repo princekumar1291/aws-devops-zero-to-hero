@@ -2,46 +2,4 @@
 
 https://youtu.be/FZPTL_kNvXc
 
-https://docs.aws.amazon.com/images/vpc/latest/userguide/images/vpc-example-private-subnets.png
-
-
-# 🛠️ VPC Demo: 2-Tier Application in Private Subnets
-
-This project demonstrates how to set up a **2-tier architecture** using **AWS VPC**, where both the application and database layers are hosted in **private subnets**. The setup follows best practices by using a **NAT Gateway** for outbound internet access.
-
----
-
-## 📺 Video Walkthrough
-
-Watch the full step-by-step tutorial here:  
-[![YouTube Video](https://img.shields.io/badge/Watch-YouTube-red?logo=youtube)](https://youtu.be/FZPTL_kNvXc)
-
----
-
-## 📷 Architecture Diagram
-
-![VPC Private Subnets](https://docs.aws.amazon.com/images/vpc/latest/userguide/images/vpc-example-private-subnets.png)
-
----
-
-## 🌐 Key Features
-
-- Custom **VPC** with private and public subnets
-- **NAT Gateway** for private subnet internet access
-- **App Tier** and **DB Tier** hosted in separate private subnets
-- Suitable for secure production environments
-
----
-
-## 🚀 Technologies Used
-
-- AWS VPC
-- Subnetting (Private/Public)
-- NAT Gateway
-- EC2 Instances (App + DB)
-- Internet Gateway (for NAT access)
-
----
-
-## 📁 Folder Structure
-
+https://docs.aws.amazon.com/vpc/latest/userguide/vpc-example-private-subnets-nat.html
